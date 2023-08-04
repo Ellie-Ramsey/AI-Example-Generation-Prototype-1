@@ -1,5 +1,16 @@
 First Prototype Edition:
-This is a first edition of the Ramsey Systems prototype for the AI research project, it contains a custom FAISS index and uses the OpenAI API.
+This is a first edition of the Ramsey Systems prototype for the AI research project, it contains a custom FAISS index and uses the OpenAI API within a flask app.
+
+Instructions for Use:
+- You can create an OpenAI API key to place in .env and .config here: https://platform.openai.com/account/api-keys
+
+- Best query for the story page is: 'Generate a unique json instance of a diabetic patient using the schema and example provided'
+- Best query for the timeline page is: 'Create a timeline for the provided patient story using the schema and example provided'
+    - IMPORTANT: The current FAISS index does not have a large number of examples so there may be times where the AI will generate a response which is either not valid/ not relevant, if this occurs just re-submit your query and it should be fixed.
+
+
+
+
 
 
 Resources Used:
