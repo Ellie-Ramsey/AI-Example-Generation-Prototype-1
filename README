@@ -8,9 +8,16 @@ Instructions for Use:
 - Best query for the timeline page is: 'Create a timeline for the provided patient story using the schema and example provided'
     - IMPORTANT: The current FAISS index does not have a large number of examples so there may be times where the AI will generate a response which is either not valid/ not relevant, if this occurs just re-submit your query and it should be fixed.
 
+Loading Story:
+- For stories which are loaded they should be formatted in a similar style to the one below (including the square and brackets)
 
-
-
+[
+{
+  "Summary": "Fenella is a 36 year old single mother of 3, who has a C-section wound infection",
+  "Rationale": "Adequate patient care",
+  "Story": "Fenella is a 36 year old single mother, who's C-section wound became infected the following day after the procedure. Fenella's wound is assessed and a wound treatment plan is made by the community midwife. Fenella is sent home and receives check-ins every 2-3 days by the midwife team, maternity support worker, and the health visitor."
+}
+]
 
 
 Resources Used:
